@@ -1,0 +1,68 @@
+body{
+    background: url("../img/boreal.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+#cont-algoritmos{
+    width: 80%;
+    margin: 120px auto;
+    border: 5px solid rgb(0, 255, 8);
+    text-align: center;
+    padding: 30px;
+    background: rgba(200, 99, 255, 0.489);
+}
+
+#btn{
+    display: block;
+    padding: 12px 20px;
+    background: rgba(137, 43, 226, 0.519);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 4px 3px rgb(0, 255, 8);
+    max-width: 220px;
+    margin: 20px auto;
+    transition: .5s;
+    text-align: center;
+}
+
+#btn:hover{
+    transform: scale(0.8);
+    background: #fff;
+    color: black;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+p{
+    color: rgb(0, 255, 8);   
+}
+
+button{
+    padding: 10px 20px;
+    border: 2px solid rgb(0, 255, 8);
+    background: rgba(64, 224, 208, 0);
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    border-radius: 8px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover{
+    background: white;
+    color: black;
+    border-radius: 8px;
+}
